@@ -1,0 +1,16 @@
+model_name: meta-llama/Llama-2-7b-hf
+preprocess: stanford_openie
+simplification: SimplificationWrapper
+editor:
+  type: MENDWrapper
+  model_dir: ./baselines/mend/weights
+  hparams: {
+    "lr_scale": 1.0,
+    "n_toks": 10,
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "counterfact": false,
+    "zsre": true,
+    "mini": false
+  }
+
+  model_filename: llama-2-7b-ZsRE

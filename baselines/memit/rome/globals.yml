@@ -1,0 +1,14 @@
+---
+  # Result files
+  RESULTS_DIR: "results"
+
+  # Data files
+  DATA_DIR: "/zengdaojian/jizeao/projects/LLEFT/baseline_evaluation/baselines/memit/rome/data"
+  STATS_DIR: "/zengdaojian/jizeao/projects/LLEFT/baseline_evaluation/baselines/memit/rome/data/stats"
+  KV_DIR: "/share/projects/rewriting-knowledge/kvs"
+
+  # Hyperparameters
+  HPARAMS_DIR: "hparams"
+
+  # Remote URLs
+  REMOTE_ROOT_URL: "https://memit.baulab.info"

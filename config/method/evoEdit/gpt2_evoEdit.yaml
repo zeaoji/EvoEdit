@@ -1,0 +1,15 @@
+model_name: gpt2-xl
+editor:
+  type: EvoEdit
+  trainable_pattern: '.'
+  opt_name: AdamW
+  opt_kwargs:
+    lr: 4e-5
+    weight_decay: 0.01
+  minibatch_tokens: 3072
+  steps: 25
+  early_stop: 0.1
+  train_mode: True
+  importance_ratio: 0.2
+merge_weight: 0.33+0.33+0.34
+noise_alpha: 8

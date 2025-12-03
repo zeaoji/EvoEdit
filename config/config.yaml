@@ -1,0 +1,4 @@
+low_vram: False
+preprocess: Null
+add_cloze_hint: True
+simplification: Null

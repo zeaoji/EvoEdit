@@ -1,0 +1,15 @@
+model_name: meta-llama/Llama-3.1-8B
+editor:
+  type: EvoEdit
+  trainable_pattern: '.'
+  opt_name: AdamW
+  opt_kwargs:
+    lr: 3e-5
+    weight_decay: 0.01
+  minibatch_tokens: 1024
+  steps: 25
+  early_stop: 0.03
+  train_mode: True
+  importance_ratio: 1.0
+merge_weight: 0.0+0.0+1.0
+noise_alpha: 8
